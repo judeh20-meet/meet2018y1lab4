@@ -1,0 +1,27 @@
+import turtle
+
+turtle.bgcolor('purple')
+Lucy = turtle.Turtle()
+Lucy.pensize('5')
+Lucy.pencolor('yellow')
+Lucy.shape('circle')
+Lucy.left(90)
+Lucy.forward(150)
+Lucy.left(90)
+Lucy.forward(75)
+Lucy.pencolor('white')
+Lucy.left(90)
+Lucy.forward(150)
+
+
+George = turtle.Turtle()
+George.shape('triangle')
+George.pencolor('green')
+George.pensize('10')
+George.right(90)
+George.forward(150)
+George.left(90)
+George.forward(75)
+George.left(90)
+George.pencolor('blue')
+George.forward(150)
